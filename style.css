@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lora' serif;
+    
+}
+
+h1 {
+    font-family : "Cinzel" serif;
+    
+}
+
+#wrapper, img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.cacioepepe {
+    background-color: #D2C3AC; /* Travertine Beige */
+}
+
+.amatriciana {
+    background-color: #B55239; /* Terracotta Red */
+}
+
+.carbonara {
+    background-color: #f1b458; /* Roman Gold */
+}
+
+.gricia {
+    background-color: #af6c40; /* Tuscan Brown */
+}
+
